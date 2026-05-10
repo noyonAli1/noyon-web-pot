@@ -8,6 +8,7 @@ import MyService from "@/components/shared/MyService";
 import MyExperience from "@/components/shared/MyExperience";
 import MyContact from "@/components/shared/MyContact";
 import Footer from "@/components/shared/Footer";
+import Journey from "@/components/shared/Journey";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
         <Navbar></Navbar>
         {children}
         <About></About>
+        <Journey></Journey>
         <Skills></Skills>
          <MyProject></MyProject>
           <MyService></MyService>
