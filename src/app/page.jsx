@@ -133,7 +133,7 @@ export default function Hero() {
                 Download CV
 
                 <Download
-                  size={18}
+                  size={15}
                   className="group-hover:translate-y-1 transition-all duration-300"
                 />
               </Link>
@@ -146,7 +146,7 @@ export default function Hero() {
                 Let’s Talk
 
                 <ArrowRight
-                  size={18}
+                  size={15}
                   className="group-hover:translate-x-1 transition-all duration-300"
                 />
               </Link>
