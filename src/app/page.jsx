@@ -99,7 +99,7 @@ export default function Hero() {
 
             {/* TAG */}
             <div className="flex justify-center lg:justify-start">
-              <div className="inline-flex flex-wrap items-center justify-center gap-3 border border-purple-500/40 px-5 py-3 rounded-full text-xs sm:text-sm lg:text-base text-gray-200 backdrop-blur-md bg-white/5">
+              <div className="inline-flex flex-wrap items-center justify-center gap-1 border border-purple-500/40 px-3 py-3 rounded-full text-xs sm:text-sm lg:text-base text-gray-200 backdrop-blur-md bg-white/5">
 
                 <span>React.js Developer</span>
 

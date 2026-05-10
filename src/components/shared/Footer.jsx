@@ -10,10 +10,11 @@ export default function Footer() {
 
             <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-16">
                 {/* Top Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 text-center md:text-left">
+                    
                     {/* Brand */}
-                    <div>
-                        <div className="flex items-center gap-3">
+                    <div className="flex flex-col items-center md:items-start">
+                        <div className="flex items-center justify-center md:justify-start gap-3">
                             <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center text-3xl font-bold shadow-lg shadow-blue-500/30">
                                 NR
                             </div>
@@ -29,13 +30,13 @@ export default function Footer() {
                             </div>
                         </div>
 
-                        <p className="mt-6 text-gray-400 leading-relaxed text-sm">
-                            I build modern, scalable and high-performance web applications
-                            using React, Next.js, Node.js and MongoDB with clean UI/UX
-                            experiences.
+                        <p className="mt-6 text-gray-400 leading-relaxed text-sm max-w-sm">
+                            I build modern, scalable and high-performance web
+                            applications using React, Next.js, Node.js and
+                            MongoDB with clean UI/UX experiences.
                         </p>
 
-                        <div className="mt-6 space-y-2 text-sm text-gray-400">
+                        <div className="mt-6 space-y-2 text-sm text-gray-400 flex flex-col items-center md:items-start">
                             <p>Email: Bnoyon223@gmail.com</p>
                             <p>Location: Bangladesh</p>
                             <p>Available For Freelance Projects</p>
@@ -43,7 +44,7 @@ export default function Footer() {
                     </div>
 
                     {/* Quick Links */}
-                    <div>
+                    <div className="flex flex-col items-center md:items-start">
                         <h3 className="text-xl font-semibold mb-6">
                             Quick Links
                         </h3>
@@ -94,7 +95,7 @@ export default function Footer() {
                     </div>
 
                     {/* Services */}
-                    <div>
+                    <div className="flex flex-col items-center md:items-start">
                         <h3 className="text-xl font-semibold mb-6">
                             Services
                         </h3>
@@ -123,17 +124,17 @@ export default function Footer() {
                     </div>
 
                     {/* Newsletter */}
-                    <div>
+                    <div className="flex flex-col items-center md:items-start">
                         <h3 className="text-xl font-semibold mb-6">
                             Subscribe Newsletter
                         </h3>
 
-                        <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                            Get updates about my latest projects, portfolio improvements and
-                            modern web technologies.
+                        <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
+                            Get updates about my latest projects, portfolio
+                            improvements and modern web technologies.
                         </p>
 
-                        <form className="space-y-4">
+                        <form className="space-y-4 w-full max-w-sm">
                             <input
                                 type="email"
                                 placeholder="Enter your email"
@@ -151,9 +152,12 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom */}
-                <div className="border-t border-white/10 mt-14 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+                <div className="border-t border-white/10 mt-14 pt-6 flex flex-col md:flex-row items-center justify-between gap-5">
                     <p className="text-gray-500 text-sm text-center md:text-left">
-                        © 2026 Noyon Raj. <span className="text-blue-200">I Miss You Habiba.</span>
+                        © 2026 Noyon Raj.{" "}
+                        <span className="text-blue-200">
+                            I Miss You Habiba.
+                        </span>
                     </p>
 
                     <a
