@@ -85,7 +85,7 @@ export default function Hero() {
             {/* NAME */}
             <div>
               <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[95px] font-black leading-none">
-                Noyon{" "}
+                Nahid{" "}
                 <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
                   Raj
                 </span>
@@ -242,11 +242,11 @@ export default function Hero() {
             </div>
 
             {/* HTML */}
-            <div className="absolute left-0 top-[45%] floating2">
+            {/* <div className="absolute left-0 top-[45%] floating2">
               <div className="iconBox text-orange-400 border-orange-500">
                 <FaHtml5 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
