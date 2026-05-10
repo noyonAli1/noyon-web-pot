@@ -35,33 +35,34 @@ export default function About() {
 
       {/* MAIN */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* CARD */}
         <div className="rounded-[24px] border border-[#24324a] bg-[#071120]/80 backdrop-blur-xl p-5 sm:p-8 lg:p-10">
-          
+
           <div className="grid lg:grid-cols-[280px_1fr_220px] gap-8 lg:gap-10 items-center">
-            
+
             {/* LEFT IMAGE */}
             <div className="flex justify-center">
-              
+
               <div className="relative">
-                
+
                 {/* GLOW */}
                 <div className="absolute inset-0 rounded-full bg-cyan-500/20 blur-[40px]"></div>
 
                 {/* IMAGE BOX */}
                 <div className="relative w-[200px] h-[200px] sm:w-[240px] sm:h-[240px] rounded-full border-[4px] border-cyan-400 overflow-hidden shadow-[0_0_40px_rgba(34,211,238,0.5)] animate-float">
-                  
+
                   {/* IMAGE */}
                   <Image
                     src="/noy.png"
                     alt="profile"
                     fill
+                    sizes="100vw"
                     className="object-cover"
                     priority
                   />
 
-                 
+
                 </div>
 
                 {/* DOTS */}
@@ -106,10 +107,10 @@ export default function About() {
 
               {/* INFO GRID */}
               <div className="grid sm:grid-cols-2 gap-4 mt-8">
-                
+
                 {/* LEFT INFO */}
                 <div className="space-y-4">
-                  
+
                   <div className="infoItem">
                     <FaUser className="infoIcon" />
 
@@ -149,7 +150,7 @@ export default function About() {
 
                 {/* RIGHT INFO */}
                 <div className="space-y-4">
-                  
+
                   <div className="infoItem">
                     <FaBriefcase className="infoIcon" />
 
@@ -189,7 +190,7 @@ export default function About() {
 
             {/* RIGHT STATS */}
             <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-1 gap-4">
-              
+
               {/* CARD 1 */}
               <div className="statCard">
                 <div className="statIcon">

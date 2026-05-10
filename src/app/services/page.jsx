@@ -1,11 +1,11 @@
-import React from 'react';
+import MyService from '@/components/shared/MyService'
 
-const MyServicePage = () => {
-    return (
-        <div>
-            <MyServicePage></MyServicePage>
-        </div>
-    );
-};
+const page = () => {
+  return (
+    <div>
+      <MyService />
+    </div>
+  )
+}
 
-export default MyServicePage;
+export default page
