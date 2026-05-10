@@ -5,6 +5,7 @@ import About from "@/components/shared/About";
 import Skills from "@/components/shared/Skills";
 import MyProject from "@/components/shared/MyProject";
 import MyExperience from "@/components/shared/MyExperience";
+import MyContact from "@/components/shared/MyContact";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
         <Skills></Skills>
          <MyProject></MyProject>
           <MyExperience></MyExperience>
+          <MyContact></MyContact>
         </body>
     </html>
   );
